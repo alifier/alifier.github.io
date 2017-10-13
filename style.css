@@ -1,0 +1,228 @@
+header {
+    background-image: url("./images/Back5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    color:white;
+    /*width: 100%;*/
+    height: 250px;
+    text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+body {
+	width: 100%;
+  	background-color:black;
+  	background-image: url("./images/Back_black.png");
+  	background-repeat: no-repeat;
+  	background-attachment:fixed;
+  	background-size: cover;
+  	color: white;
+}
+nav {
+  	width: 100%;
+	background: black;
+}
+
+nav ul {
+	list-style: none;
+	padding:0 15% 0 15%;
+  	overflow: hidden;
+  	position: relative;
+  	
+}
+
+nav ul li {
+	float: left;
+	display: inline-block;
+    width: 20%;
+	/*min-width: 150px;
+	max-width: 400px;*/
+	/*float: center;*/
+}
+
+@media (max-width: 550px) {
+	nav ul li {
+		width: 100%;
+	}
+}
+
+nav ul li a {
+  	/*font-family:"Times New Roman", Times, serif;*/
+  	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  	font-size: 100%;
+  	color: white;	
+  	text-align: center;
+  	text-decoration: none;
+  	padding: 15px 0;
+  	display: block;
+  	width: 100%;
+  	background: black; /* Old browsers */
+}
+
+nav ul li a:focus {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:visited{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+  	color:cornflowerblue;
+  	text-decoration: none;
+}
+nav ul li a:active {
+  	color: white;
+  	text-decoration: none;
+}
+
+nav ul li a:active  {
+  	background: cornflowerblue; /* Old browsers */
+  	background: -moz-linear-gradient(top,black 0%, cornflowerblue 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom,color-stop(0%,black), 
+    	color-stop(100%,cornflowerblue)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,black 0%,cornflowerblue 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,black 0%,cornflowerblue 100%); /* Opera 11.10+ */
+  	background: linear-gradient(to bottom,black 0%,cornflowerblue 100%); /* W3C standard, IE10+ */
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', 
+    	endColorstr='cornflowerblue',GradientType=0 ); /* IE6-9 */
+}
+
+nav.home a.home, nav.resume a.resume, nav.research a.research, nav.startup_projects a.startup_projects, nav.blog a.blog {
+	background: cornflowerblue; /* Old browsers */
+  	background: -moz-linear-gradient(top,black 0%, cornflowerblue 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom,color-stop(0%,black),
+	color-stop(100%,cornflowerblue)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,black 0%,cornflowerblue 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,black 0%,cornflowerblue 100%); /* Opera 11.10+ */
+  	background: linear-gradient(to bottom,black 0%,cornflowerblue 100%); /* W3C standard, IE10+ */
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', 
+    	endColorstr='cornflowerblue',GradientType=0 ); /* IE6-9 */
+
+}
+
+section {
+    width:100%;
+    float:left;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+	text-align: center;
+}
+
+div.icon {
+	margin-right:5px;
+	margin-left:5px;
+	display: inline-block;
+}
+
+
+div.img1 {
+	image-orientation: from-image;
+    float: left;
+	margin: 2%;
+	width: 22%;
+	min-width: 250px;
+}
+
+div.relative1 {
+	position: relative;
+	margin: 5% 12% 20px 15%;
+	overflow: hidden;
+}
+
+@media (max-width: 350px) {
+	div.relative1 {
+	position: relative;
+	margin-right: 0px;
+	overflow: hidden;
+	}
+}
+
+div.relative2 {
+	position: relative;
+	float:left;
+	margin-left: 2%;
+	margin-top: 10px;
+	width: 50%;
+	min-width:230px;
+	max-width: 500px;
+	text-align: justify;
+}
+div.header {
+	position: absolute;
+	width: 100%;
+}
+
+h1.name {
+	/*font-family:"Times New Roman",Times,serif;*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 45px;
+	/*font-style: italic;*/
+	letter-spacing: normal;
+	font-weight: normal;
+	margin-top: 7%;
+}
+
+h2.title {
+	/*font-family:helvetica-w01-light,helvetica-w02-light,sans-serif;*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	letter-spacing:0.1em;
+	font-weight: 600;
+	margin-top:-1%;
+}
+h2.section {
+	/*font-family:helvetica-w01-light,helvetica-w02-light,sans-serif;*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30px;
+	font-weight:500;
+	/*color: steelblue;*/
+	color: cornflowerblue;
+}
+
+section a:link {
+	color: white;
+	text-decoration: none;
+	border-bottom: dotted 1px;
+}
+section a:focus {
+	color: white;
+	text-decoration: none;
+}
+section a:visited{
+	color: white;
+	text-decoration: none;
+}
+section a:hover {
+  	color:cornflowerblue;
+  	text-decoration: none;
+}
+section a:active {
+  	color: white;
+  	text-decoration: none;
+}
+
+div.footer {
+	margin-top: 50%;
+
+}
+
+section p, section li {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+li li {
+	margin-left: 20px;
+}
